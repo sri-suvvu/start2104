@@ -1,0 +1,5 @@
+def rotateLeft(d, arr):
+    return arr[d:]+arr[0:d]
+   input-[1,2,3,4,5]
+   d=2
+   output-[3,4,5,1,2]
